@@ -1,0 +1,19 @@
+/* Resets
+   ========================================================================== */
+
+   * {
+   	box-sizing: border-box;
+   }
+
+body {
+	font-family: $body;
+}
+
+/* clear floats
+   ========================================================================== */
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}

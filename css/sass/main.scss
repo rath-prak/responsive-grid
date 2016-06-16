@@ -1,0 +1,30 @@
+@import 'normalize';
+@import 'grid';
+@import 'variables';
+
+/* Header
+   ========================================================================== */
+
+.hero {
+	background: url('../images/hero.jpg') no-repeat top center;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}   
+
+.brand {
+	float: left;
+}
+
+.menu {
+	float: right;
+	margin: 30px 30px 0 0;
+		a {
+			text-decoration: none;
+			color: $reverse;
+			margin-left: 30px;
+			display: block;
+			float: left;
+		}
+}

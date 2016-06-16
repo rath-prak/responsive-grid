@@ -1,0 +1,33 @@
+/* colors
+   ========================================================================== */
+
+$background-color: #CED6DE;
+
+$main-color: #FF0B93;
+$main-color-2: #4D6FFF;
+$main-color-3: #FF8730;
+
+$reverse: #fff;
+
+.pink { background: $main-color; }
+.blue { background: $main-color-2; }
+.orange { background: $main-color-3; }
+.green { background: #1FB46C; }
+.yellow { background: #DA9921; }
+.purple { background: #8F2DDA; }  
+
+/* fonts
+   ========================================================================== */
+
+@font-face { font-family: Gotham_black; src: url(../fonts/GOTHAM-BLACK.TTF);}
+@font-face { font-family: Gotham_medium; src: url(../fonts/GOTHAM-MEDIUM.TTF);}
+@font-face { font-family: Gotham_thin; src: url(../fonts/GOTHAM-LIGHT.TTF);}
+
+$bold: Gotham_black, sans-serif;
+$medium: Gotham_medium, sans-serif;
+$body: Gotham_thin, sans-serif;
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $medium;
+}
