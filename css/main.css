@@ -402,6 +402,9 @@ textarea {
 h1, h2, h3, h4, h5, h6 {
   font-family: Gotham_medium, sans-serif; }
 
+.icon-section {
+  text-align: center; }
+
 /* Resets
    ========================================================================== */
 * {
@@ -433,8 +436,10 @@ body {
   /*overflow: hidden;*/ }
 
 .column {
-  float: left; }
+  float: left;
+  padding: 20px; }
 
+/*for gutter set margin left to 4% and first:child to 0px then recalculate percentages*/
 .one {
   width: 8.33333333%; }
 
@@ -507,6 +512,9 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Gotham_medium, sans-serif; }
+
+.icon-section {
+  text-align: center; }
 
 /* Header
    ========================================================================== */

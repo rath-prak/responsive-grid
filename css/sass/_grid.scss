@@ -22,7 +22,10 @@
 
 .column {
 	float: left;
+	padding: 20px;
 }
+
+/*for gutter set margin left to 4% and first:child to 0px then recalculate percentages*/
 
 .one { width: 8.33333333%; }
 .two { width: 16.66666666%; }
